@@ -1,5 +1,5 @@
 ---
-title: Numpy
+title: Python 기초 - Numpy
 categories:
 - [Python]
 ---

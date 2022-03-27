@@ -1,5 +1,5 @@
 ---
-title: Python 기초 문법 정리
+title: Python 기초 - 기초 문법 정리
 categories:
 - [Python]
 ---

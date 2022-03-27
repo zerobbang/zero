@@ -1,10 +1,10 @@
 ---
-title: 파이썬 함수 생성
+title: Python 기초 - 사용자 함수 생성
 categories:
 - [Python]
 ---
 
-- 사용자 함수 만들기 (간단한 사칙연산 with 피타고라스)
+- 사용자 함수 만들기 (피타고라스)
 
 ```python
 import math
@@ -54,10 +54,13 @@ def mean_and_median(value_list):
 
   return mean,median
 
-# 함수를 만들었을 때 꼭 해줘야 하는 부분
 if __name__ == "__main__":
   value_list = [1,1,2,2,3,4,5]
   avg,median = mean_and_median(value_list)
   print("avg : ", avg)
   print("median : ", median)
 ```
+
+> if __name__ == "__main__" 사용하는 이유 
+ - import 되었을 때 필요한 함수만 불러와 사용할 수 있게 하고,  직접 호출될 때 그 자체로 수행되도록 하기 위함이다.
+> 

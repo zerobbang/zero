@@ -1,5 +1,5 @@
 ---
-title: Class 만들기
+title: Python 기초 - Class 생성
 categories:
 - [Python]
 ---
@@ -49,7 +49,7 @@ class attribute 불러올 때는 __class__ 가 약속
 
 ## Class 상속
 
-- 기본 틀
+- 기본 틀 예시
 
 ```python
 class Parent:
@@ -62,7 +62,7 @@ if __name__=="__main__":
 	~
 ```
 
-- 예시 1
+- 예시
 
 ```python
 class Parent:
@@ -113,13 +113,7 @@ if __name__=="__main__":
     I'm Parent!!
     
     </aside>
-    
 
-- 예시 2
-- 날씨와 주문 메뉴를 입력하면 리스트에 저장
-- 후 그 데이터베이스를 통해 내일 날씨에 따리 주문 예상 메뉴 추측
-- 지금은 리스트에 저장 하는 클래스
-- 나중에 이걸 바탕으로 포스기 만들기
 
 ### Class update
 

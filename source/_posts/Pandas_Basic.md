@@ -1,5 +1,5 @@
 ---
-title: Pandas
+title: Python 기초 - Pandas
 categories:
 - [Python]
 ---
