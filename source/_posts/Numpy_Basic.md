@@ -1,5 +1,6 @@
 ---
 title: Python 기초 - Numpy
+date : "2022-03-23"
 categories:
 - [Python]
 ---
@@ -375,3 +376,7 @@ print(t_re_arr,type(t_re_arr), t_re_arr.shape, t_re_arr.ndim,t_re_arr.dtype)
         [100 101 2 3 4 5 12 14 16 18]
         
         </aside>
+    
+    
+---    
+**_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**

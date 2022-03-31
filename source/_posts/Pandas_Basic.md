@@ -1,11 +1,9 @@
 ---
 title: Python 기초 - Pandas
+date : "2022-03-23"
 categories:
 - [Python]
 ---
-
-source/images/Pandas_Basic
-
 
 
 - Pandas 자료 구조 살펴보기
@@ -20,7 +18,7 @@ source/images/Pandas_Basic
     df
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled.png)
+    ![](/images/Pandas_Basic/Untitled.png)
     
 2. Series
     
@@ -31,7 +29,7 @@ source/images/Pandas_Basic
     ser
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%201.png)
+    ![](/images/Pandas_Basic/Untitled%201.png)
     
 
 - Google Drive 통해 데이터 불러오기
@@ -84,7 +82,7 @@ memory usage: 1.9+ KB
     juice.describe()
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%202.png)
+    ![](/images/Pandas_Basic/Untitled%202.png)
     
 - 문자 확인 → value_counts
     
@@ -111,7 +109,7 @@ memory usage: 1.9+ KB
     print(juice.head(3))
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%203.png)
+    ![](/images/Pandas_Basic/Untitled%203.png)
     
     ```python
     # 새로 생성한 컬럼에 값 추가하기
@@ -119,7 +117,7 @@ memory usage: 1.9+ KB
     print(juice.head(3))
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%204.png)
+    ![](/images/Pandas_Basic/Untitled%204.png)
     
 - 컬럼 삭제
     
@@ -134,7 +132,7 @@ memory usage: 1.9+ KB
     print(juice_column_drop.head())
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%205.png)
+    ![](/images/Pandas_Basic/Untitled%205.png)
     
     - 먄약 축 방향이 잘못될 경우 -> [''] not found in axis. 에러
     
@@ -144,7 +142,7 @@ memory usage: 1.9+ KB
     print(juice_row_drop.head(2))
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%206.png)
+    ![](/images/Pandas_Basic/Untitled%206.png)
     
 
 ### Data Indexing
@@ -153,7 +151,7 @@ memory usage: 1.9+ KB
 juice[2:9:2]
 ```
 
-![Untitled](/images/Pandas_Basic/Untitled%207.png)
+![](/images/Pandas_Basic/Untitled%207.png)
 
 데이터프레임도 인덱싱이 가능하다.
 
@@ -167,7 +165,7 @@ juice['Location'] == 'Beach'에서 TRUE만 해당되는 값을 가져왔다.
 
 ### iloc  / loc
 
-![Untitled](/images/Pandas_Basic/Untitled%208.png)
+![](/images/Pandas_Basic/Untitled%208.png)
 
 - iloc
     
@@ -176,7 +174,7 @@ juice['Location'] == 'Beach'에서 TRUE만 해당되는 값을 가져왔다.
     juice.iloc[0:3,0:2]
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%209.png)
+    ![](/images/Pandas_Basic/Untitled%209.png)
     
 - loc
     
@@ -186,7 +184,7 @@ juice['Location'] == 'Beach'에서 TRUE만 해당되는 값을 가져왔다.
     juice.loc[:2,:'Location']
     ```
     
-    ![Untitled](/images/Pandas_Basic/Untitled%209.png)
+    ![](/images/Pandas_Basic/Untitled%209.png)
     
 - 조건 / loc
     
@@ -216,7 +214,7 @@ juice.groupby(['Location'])[['Revenue','Lemon']].agg([max, min, sum, np.mean])
 
 → Location별로 Revenue와 Lemon의 max,min,sum,mean을 구하여 정리한다.
 
-![Untitled](/images/Pandas_Basic/Untitled%2010.png)
+![](/images/Pandas_Basic/Untitled%2010.png)
 
 ---
 
@@ -259,7 +257,7 @@ dict_1 = {
 df = pd.DataFrame(dict_1)
 ```
 
-![Untitled](/images/Pandas_Basic/Untitled%2011.png)
+![](/images/Pandas_Basic/Untitled%2011.png)
 
 - 결측치 확인하기
     
@@ -295,7 +293,7 @@ df = pd.DataFrame(dict_1)
         df['Score_D'] = [10,20,30,40]
         ```
         
-        ![Untitled](/images/Pandas_Basic/Untitled%2012.png)
+        ![](/images/Pandas_Basic/Untitled%2012.png)
         
     - 결측치가 있는 열 삭제 ( axis = 1 )
         
@@ -303,7 +301,7 @@ df = pd.DataFrame(dict_1)
         df.dropna(axis = 1)
         ```
         
-        ![Untitled](/images/Pandas_Basic/Untitled%2013.png)
+        ![](/images/Pandas_Basic/Untitled%2013.png)
         
     - 결측치가 있는 행 삭제 ( axis = 0 )
         
@@ -311,7 +309,7 @@ df = pd.DataFrame(dict_1)
         df.dropna(axis=0)
         ```
         
-        ![Untitled](/images/Pandas_Basic/Untitled%2014.png)
+        ![](/images/Pandas_Basic/Untitled%2014.png)
         
 
 ### 이상치
@@ -333,3 +331,5 @@ outliers_q3 = (sales['Unit price'] > Q3)
 # 이상치 제거한 값 불러오기
 print(sales['Unit price'][~(outliers_q1 | outliers_q3)])
 ```
+
+**_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**

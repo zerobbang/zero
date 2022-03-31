@@ -17,15 +17,14 @@ categories:
 
 ## 가상 환경 설정하기
 
-- PyCharm에서 새로운 프로젝트를 생성하는데 다음과 같이 생성해준다.
-- (사진)
+- PyCharm에서 새로운 프로젝트를 생성한다.
 - 새로운  프로젝트가 생성이 되었으면 가상 환경이 잘 생성되었는지 다음 코드를 입력하여 확인한다.
     
     ```python
     which python
     ```
-    
-    ![Untitled](/images/venv_setting/Untitled.png)
+      
+    ![](/images/venv_setting/Untitled.png)
     
     위 에서 보는 것처럼 가상 환경이 잘 생성되었다면 /(파일명)/ venv/Scripts/python 을 확인 할 수 있다.
     
@@ -38,7 +37,7 @@ source venv/Scripts/activate
 
 - 가상환경이 생성되었다면 기본 코드를 실행해보자.
     
-    ![Untitled](/images/venv_setting/Untitled%201.png)
+    ![](/images/venv_setting/Untitled%201.png)
     
     Hi, PyCharm을 프린트하는 코드가 잘 실행되었다.
     
@@ -81,6 +80,9 @@ source venv/Scripts/activate
 
 - 라이브러리 설치 확인하는 또 다른 방법
     
-    /venv/Lib들어가면 해당 가상환경에서 설치한 라이브러리들을 확인 가능하다.
+ /venv/Lib들어가면 해당 가상환경에서 설치한 라이브러리들을 확인 가능하다.
     
-    ![Untitled](/images/venv_setting/Untitled%202.png)
+ ![](/images/venv_setting/Untitled%202.png)
+ 
+---
+**_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**

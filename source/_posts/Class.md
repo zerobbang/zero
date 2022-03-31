@@ -1,5 +1,6 @@
 ---
 title: Python 기초 - Class 생성
+date : "2022-03-22"
 categories:
 - [Python]
 ---
@@ -391,3 +392,5 @@ if __name__=="__main__":
     |      list of weak references to the object (if defined)
     
     </aside>
+  
+**_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**

@@ -1,5 +1,6 @@
 ---
 title: Hexo Blog - Hexo Blog 만들기
+date : "2022-03-17"
 categories:
 - [Hexo]
 ---
@@ -14,22 +15,22 @@ source/images/Hexo_blog
 [https://dschloe.github.io/settings/hexo_blog/](https://dschloe.github.io/settings/hexo_blog/)
 - hexo를 쓰기 위해 node 설치하기
     
-    ![Untitled](/images/Hexo_blog/Untitled.png)
+    ![](/images/Hexo_blog/Untitled.png)
     
 - LTS 버전 다운받아 관리자 권한으로 설치하면 끝(관리자 권한이 없을 수도 있음)
 
 - 다음 옵션으로 설정해주기
     
-    ![Untitled](/images/Hexo_blog/Untitled%201.png)
+    ![](/images/Hexo_blog/Untitled%201.png)
     
-    ![Untitled](/images/Hexo_blog/Untitled%202.png)
+    ![](/images/Hexo_blog/Untitled%202.png)
     
 
 ## 설치 확인하기
 
 - git bash에서 node 버전 확인
     
-    ![Untitled](/images/Hexo_blog/Untitled%203.png)
+    ![](/images/Hexo_blog/Untitled%203.png)
     
 
 ## hexo 만들기
@@ -41,12 +42,12 @@ source/images/Hexo_blog
     hexo init (사용할 폴더명)
     ```
     
-    ![Untitled](/images/Hexo_blog/Untitled%204.png)
+    ![](/images/Hexo_blog/Untitled%204.png)
     
 - 위 코드 실행후 자신이 설정할 폴더명으로 바탕화면에 새롭게 폴더가 생긴다.
 - 해당 파일을 PyCharm으로 연 후, 터미널에서 git bash로 들어가 다음과 같이 블로그 생성을 한다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%205.png)
+    ![](/images/Hexo_blog/Untitled%205.png)
     
 
 - hexo blog가 잘 생성되었는지 hexo server로 확인한다.
@@ -57,29 +58,29 @@ source/images/Hexo_blog
     
     위 코드를 치고 기다리면 다음과 같이 로컬 호스트 주소창이 생성되는 것을 확인 할 수 있다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%206.png)
+    ![](/images/Hexo_blog/Untitled%206.png)
     
     링크를 클릭해서 들어가면 다음과 같이 기본 블로그 화면이 나온다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%207.png)
+    ![](/images/Hexo_blog/Untitled%207.png)
     
 
 ### git과 hexo 연결하기
 
 - git에 들어가서 새로운 레포를 만들어준다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%208.png)
+    ![](/images/Hexo_blog/Untitled%208.png)
     
 - Repository name을 git bash에서 블로그 생성시 설정한 폴더명과 같이 입력해주고 create 버튼을 눌러 생성한다.
  그러면 다음과 같은 화면이 뜨는데 ...or create a new repository on the command line에 있는 코드들을 PyCharm 터미널에 입력해준다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%209.png)
+    ![](/images/Hexo_blog/Untitled%209.png)
     
 - 중간에 에러가 난다면 git과 연동이 안된 상태이기 때문에 오류에서 알려주는 대로 git id와 username을 입력해준다.
 
 - git push까지 완료가 되고 git을 새로 고침하면 다음과 같이 화면이 바뀐다.
     
-    ![Untitled](/images/Hexo_blog/Untitled%2010.png)
+    ![](/images/Hexo_blog/Untitled%2010.png)
     
 
 ## git에 파일 올리기
@@ -151,3 +152,5 @@ source/images/Hexo_blog
     ```bash
     $ hexo clean
     ```
+---
+**_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**
