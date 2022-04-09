@@ -2,7 +2,7 @@
 title: Hexo Blog - Hexo Blog 만들기
 date : "2022-03-17"
 categories:
-- [Hexo]
+- [Setting]
 ---
 ## 사전 작업
 

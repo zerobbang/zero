@@ -54,6 +54,7 @@ categories:
 
 
 ---
-💻 [실습코드](https://github.com/zerobbang/study_colab/blob/main/hongong/ch5_1_DecisionTree.ipynb)
-
+💻 [실습코드](https://github.com/zerobbang/study_colab/blob/main/hongong/ch5_1_DecisionTree.ipynb)  
+📖 [혼자 공부하는 머신러닝 + 딥러닝](http://www.yes24.com/Product/Goods/96024871)  
+  
 **_<span style="color:#4682B4;"> 이 블로그는 혼자 공부하며 기록하는 블로그로 잘못된 정보에 대한 의견은 격하게 환영합니다.🤩 </span>_**
