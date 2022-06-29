@@ -3,6 +3,8 @@ title: Spark Web Ui 생성하기
 date : "2022-04-23"
 categories:
 - [Setting]
+tags:
+- [Spark]
 ---
 
 

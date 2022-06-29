@@ -1,5 +1,5 @@
 ---
-title: TypeError: 'Response' object is not subscriptable 에러
+title: TypeError - 'Response' object is not subscriptable 에러
 date : "2022-05-13"
 categories:
 - [Error]

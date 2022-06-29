@@ -2,7 +2,7 @@
 title: SQL Developer 설치
 date : "2022-04-25"
 categories:
-- [Sql]
+- [Setting]
 tags:
 - [Oracle]
 ---

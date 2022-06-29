@@ -4,7 +4,6 @@ date : "2022-04-25"
 categories:
 - [Sql]
 tags:
-- [Oracle] 
 - [Sql]
 ---
 

@@ -2,7 +2,7 @@
 title: Python ARIMA & fbprophet 설치 오류
 date : "2022-05-10"
 categories:
-- [Python]
+- [Error]
 tags:
 - [Arima]
 - [fbprophet]

@@ -1,5 +1,5 @@
 ---
-title: JSP - DB 연결하여 로그인 페이지 만들기
+title: JSP로 게시판 만들기 1 - 로그인
 date : "2022-06-27"
 categories:
 - [Java]
@@ -24,7 +24,7 @@ tag:
 
  첫 실행은 다음과 같이 자동적으로 default된 값이 있기 때문에 index이름으로 jsp 파일을 생성해준다.
 
-![Untitled](/images/jsp_login/Untitled.png)
+![](/images/jsp_login/Untitled.png)
 
  그리고 index 파일에서 로그인 링크를 달아주고 로그인 jsp 파일로 넘겨준다.
 
@@ -53,7 +53,7 @@ body부분에 있는 **form** 에서 우리 환경에 맞게 변경해주어야 
 <form action ="loginAction.jsp" method="POST">
 ```
 
-![Untitled](/images/jsp_login/Untitled%201.png)
+![](/images/jsp_login/Untitled%201.png)
 
 여기서 loginAction.jsp는 login이 돌아가는 환경을 만들어주는 jsp파일로 개인이 생성한 파일 명에 맞춰서 넣어주면 된다.
 

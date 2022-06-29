@@ -1,5 +1,5 @@
 ---
-title: JSP, TomCat sts4에서 시작하기 - JSP로 로그인 페이지 만들기 1
+title: JSP, TomCat - sts4에서 시작하기
 date : "2022-06-27"
 categories:
 - [Setting]

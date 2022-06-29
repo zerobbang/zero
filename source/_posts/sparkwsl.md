@@ -24,11 +24,8 @@ Spark를 설치하기 전에 작업 할 환경을 설정해준다.
 2. pyspark 설치 및 경로 잡아주기
 3. 실행
 
-전체적인 흐름은 위와 같은데 우리는 window에서 설치 할 때 spark 다운을 받았기 때문에 다음 작업은 건너뛴다.    
-
-- 작업 파일 생성
-
-⇒ 여기에서 참고
+전체적인 흐름은 위와 같은데 우리는 window에서 설치 할 때 spark 다운을 받았기 때문에 다음 작업은 건너뛴다.  
+⇒ 여기에서 [참고](https://zerobbang.github.io/2022/04/19/sparksetting/)
 
 ### Linux에서 Spark Web UI 띄우기
 
